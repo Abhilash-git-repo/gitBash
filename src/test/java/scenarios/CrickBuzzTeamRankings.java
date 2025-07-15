@@ -19,7 +19,7 @@ public class CrickBuzzTeamRankings {
 //		2. Maximize the window
 		driver.manage().window().maximize();
 //		3. Provide waits
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(25));
 //		4. Load the url
 		driver.get("https://www.cricbuzz.com/");
 		
