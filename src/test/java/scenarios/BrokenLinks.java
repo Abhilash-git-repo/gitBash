@@ -23,7 +23,11 @@ public class BrokenLinks {
 		driver.manage().window().maximize();
 		
 //		3. Provide wait
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(25));
+
+	
+
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+
 		
 //		4. Load the Url
 		driver.get("https://www.amazon.in/");
@@ -38,7 +42,7 @@ public class BrokenLinks {
 			String value = ele.getAttribute("href");
 			if(value==null || value.isEmpty())
 			{
-				System.out.println("We cannot check");
+				System.out.println("We cannot do check");
 				continue;
 			}
 			
