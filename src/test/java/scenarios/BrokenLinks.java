@@ -23,7 +23,7 @@ public class BrokenLinks {
 		driver.manage().window().maximize();
 		
 //		3. Provide wait
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
 //		4. Load the Url
 		driver.get("https://www.amazon.in/");
