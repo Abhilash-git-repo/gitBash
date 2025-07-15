@@ -26,7 +26,7 @@ public class BrokenLinks {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		
 //		4. Load the Url
-		driver.get("");
+		driver.get("https://www.amazon.in/");
 		
 //		5. get all broken links
 		List<WebElement> allLinks = driver.findElements(By.xpath("//a"));
